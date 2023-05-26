@@ -1,0 +1,94 @@
+@media (max-width: 850px) {
+    
+    .container-principal {
+        overflow: hidden;
+        height: 820px;
+        margin-top: 290px;
+        height: 700px;
+        
+    }
+    body{
+        margin-top: -100px;
+        
+        
+    }
+    .container-secundario {
+        position: static;
+        transform: none;
+        width: revert;
+        height: revert;
+        padding: 2rem;
+        
+    }
+
+    .Divisao {
+        position: revert;
+        width: 100%;
+        height: auto;
+         background-color: rgb(255, 255, 255);
+        border-radius: 1.3rem;
+    }
+
+    .text {
+        margin-bottom: 1rem;
+    }
+
+    form {
+        max-width: revert;
+        padding: 1.5rem 2.5rem 2rem;
+
+    }
+
+    .login{
+        margin: 2rem 0;
+    }
+
+    .container-garoto{
+        display: none;
+    }
+
+    .garoto{
+        display: none;
+    }
+
+}
+
+@media (max-width: 530px) {
+    main {
+        padding: 1rem;
+        margin-top: 100px;
+    }
+    .container-principal {
+        margin-top: 200px;
+        height: 760px;
+        margin-top: 00px;
+        
+    }
+    body{
+        margin-top: -100px;
+        
+        
+    }
+
+    .text {
+        margin-bottom: 1rem;
+    }
+
+    .container-principal {
+        border-radius: 2rem;
+    }
+
+    .container-secundario {
+        padding: 1rem;
+        margin-top: 95px;
+    }
+
+    .container-garoto {
+        display: none;
+
+    }
+
+    form {
+        padding: 1rem 2rem 1.5rem;
+    }
+}
